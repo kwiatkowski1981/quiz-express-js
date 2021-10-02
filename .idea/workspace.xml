@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added nodemon as devDependency">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added dirs: public &amp; routes to my project and added index.html to public as simple template start site">
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,9 +27,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,7 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
-      <workItem from="1633188146652" duration="713000" />
+      <workItem from="1633188146652" duration="1041000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -92,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633188695966</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added dirs: public &amp; routes to my project and added index.html to public as simple template start site">
+      <created>1633189051073</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1633189051073</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +128,8 @@
     <MESSAGE value="added .gitignore file /node_modules" />
     <MESSAGE value="added express to my new app.js file" />
     <MESSAGE value="added nodemon as devDependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added nodemon as devDependency" />
+    <MESSAGE value="added created server" />
+    <MESSAGE value="added dirs: public &amp; routes to my project and added index.html to public as simple template start site" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dirs: public &amp; routes to my project and added index.html to public as simple template start site" />
   </component>
 </project>

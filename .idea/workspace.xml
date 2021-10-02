@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added .gitignore file /node_modules" />
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added nodemon as devDependency">
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
-      <workItem from="1633188146652" duration="404000" />
+      <workItem from="1633188146652" duration="713000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -69,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633188540053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added express to my new app.js file">
+      <created>1633188616570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1633188616570</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added nodemon as devDependency">
+      <created>1633188695966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633188695966</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +113,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="created basic js project and added node.js" />
     <MESSAGE value="added .gitignore file /node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .gitignore file /node_modules" />
+    <MESSAGE value="added express to my new app.js file" />
+    <MESSAGE value="added nodemon as devDependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="added nodemon as devDependency" />
   </component>
 </project>

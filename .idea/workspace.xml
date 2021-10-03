@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added goodAnswers counter, helps and questions to my backend">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added middlewear app.use(express.static())">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
       <workItem from="1633188146652" duration="2424000" />
-      <workItem from="1633256389569" duration="2371000" />
+      <workItem from="1633256389569" duration="4999000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -145,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633258035248</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added res Object, &#10;if: (all answers are correct?) Win Win&#10;else: send next question,&#10;&#10;- I restructure the nextQuestion object to be able to use the fields in the response object more easily. JSON&#10; - without destructuring I would have to use nextQuestion.question, nextQuestion.answers at the bottom,&#10;- the client (browser) would then have access to the correctAnswer field of the nextQuestion object, that we don't want">
+      <created>1633259176527</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1633259176527</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added middlewear app.use(express.static())">
+      <created>1633261455279</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633261455279</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +190,8 @@
     <MESSAGE value="added added scripts.js" />
     <MESSAGE value="added added simple frontend part to my app" />
     <MESSAGE value="added goodAnswers counter, helps and questions to my backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="added goodAnswers counter, helps and questions to my backend" />
+    <MESSAGE value="added res Object, &#10;if: (all answers are correct?) Win Win&#10;else: send next question,&#10;&#10;- I restructure the nextQuestion object to be able to use the fields in the response object more easily. JSON&#10; - without destructuring I would have to use nextQuestion.question, nextQuestion.answers at the bottom,&#10;- the client (browser) would then have access to the correctAnswer field of the nextQuestion object, that we don't want" />
+    <MESSAGE value="added middlewear app.use(express.static())" />
+    <option name="LAST_COMMIT_MESSAGE" value="added middlewear app.use(express.static())" />
   </component>
 </project>

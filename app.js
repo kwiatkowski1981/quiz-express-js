@@ -30,3 +30,24 @@ const questions = [
         correctAnswer: 0,
     },
 ];
+
+app.get('/question', (req, res) => {
+    // if all answers from all questions are correct?
+    if (goodAnswers === questions.length) {
+        res.json({
+            winner: true,
+        });
+    } else {
+        // tablica questions od goodAnswers zmieni punktacje i iteruje do następnego pytania
+        const nextQuestion = questions[goodAnswers];
+        // Destrukturyzuję obiekt nextQuestion żeby móc prościej użyć pól w obiekcie odpowiedzi.JSON
+        // bez destrukturyzacji musial bym użyć na dole nextQuestion.question, nextQuestion.answers,
+        // klient (przegladarka) uzyskala by jednak wtedy dostep do pola correctAnswer obiektu nextQuestion
+        // a tego nie chcemy
+        const {question, answers} = nextQuestion;
+        res.json({
+            question,
+            answers,
+        })
+    }
+});

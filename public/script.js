@@ -44,6 +44,7 @@ for (const button of buttons) {
     button.addEventListener('click', event => {
 // po nacisnieciu jakiegos przycisku, pobieramy sobie index odpowiedzi
         const answerIndex = event.target.dataset.answer;
+// wysylam do funkcji sendAnswer index odpowiedzi jako argument
         sendAnswer(answerIndex);
     });
 }

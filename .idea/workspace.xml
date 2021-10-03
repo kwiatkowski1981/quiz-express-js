@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added: I prevent the possibility of choosing an answer again after choosing the wrong one by setting loser: true and blocking the game.">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added: I display the result on the frontEnd, I display another question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/game.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
       <workItem from="1633188146652" duration="2424000" />
-      <workItem from="1633256389569" duration="13471000" />
+      <workItem from="1633256389569" duration="14155000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633293017938</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added: I display the result on the frontEnd, I display another question">
+      <created>1633295014770</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1633295014770</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +278,7 @@
     <MESSAGE value="added: I pull the condition into a variable which improves the readability of the code.&#10;const isCorrectAnswer = correctAnswer === Number(index);" />
     <MESSAGE value="added: I give points for giving the correct answer." />
     <MESSAGE value="added: I prevent the possibility of choosing an answer again after choosing the wrong one by setting loser: true and blocking the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="added: I prevent the possibility of choosing an answer again after choosing the wrong one by setting loser: true and blocking the game." />
+    <MESSAGE value="added: I display the result on the frontEnd, I display another question" />
+    <option name="LAST_COMMIT_MESSAGE" value="added: I display the result on the frontEnd, I display another question" />
   </component>
 </project>

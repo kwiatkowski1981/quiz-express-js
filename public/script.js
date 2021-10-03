@@ -4,7 +4,18 @@ const question = document.querySelector('#question');
 // const answer3 = document.querySelector('#answer3');
 // const answer4 = document.querySelector('#answer4');
 
+const gameBoard = document.querySelector('#game-board');
+const h2 = document.querySelector('h2');
 function fillQuestionElements(data) {
+
+    // przy poprawnym odpowiedzeniu na wszystkie pytania chowam panel pytań i przyciski i wyświetlam na frontEndzie w H2
+    // informację o wygranej
+    if (data.winner === true) {
+        gameBoard.style.display = 'none';
+        h2.innerText = 'You have WON!!!';
+        return;
+    }
+
     question.innerText = data.question;
     for (const i in data.answers) {
         const answerElement = document.querySelector(`#answer${Number(i) + 1}`);

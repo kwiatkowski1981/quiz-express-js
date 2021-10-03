@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added dirs: public &amp; routes to my project and added index.html to public as simple template start site">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added console.log with my site link">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
-      <workItem from="1633188146652" duration="1041000" />
+      <workItem from="1633188146652" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -105,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633189051073</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added console.log with my site link">
+      <created>1633189285818</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633189285818</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +142,7 @@
     <MESSAGE value="added nodemon as devDependency" />
     <MESSAGE value="added created server" />
     <MESSAGE value="added dirs: public &amp; routes to my project and added index.html to public as simple template start site" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dirs: public &amp; routes to my project and added index.html to public as simple template start site" />
+    <MESSAGE value="added console.log with my site link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added console.log with my site link" />
   </component>
 </project>

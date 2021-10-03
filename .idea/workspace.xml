@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added console.log with my site link">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added changed main File from index.js to app.js. This allows me to start my app with command: nodemon app.js. it do refresh my web browser after every change in my code">
+      <change afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,6 +54,7 @@
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
       <workItem from="1633188146652" duration="2424000" />
+      <workItem from="1633256389569" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -117,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633189285818</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added changed main File from index.js to app.js. This allows me to start my app with command: nodemon app.js. it do refresh my web browser after every change in my code">
+      <created>1633256577820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1633256577820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +142,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
@@ -143,6 +153,7 @@
     <MESSAGE value="added created server" />
     <MESSAGE value="added dirs: public &amp; routes to my project and added index.html to public as simple template start site" />
     <MESSAGE value="added console.log with my site link" />
-    <option name="LAST_COMMIT_MESSAGE" value="added console.log with my site link" />
+    <MESSAGE value="added changed main File from index.js to app.js. This allows me to start my app with command: nodemon app.js. it do refresh my web browser after every change in my code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added changed main File from index.js to app.js. This allows me to start my app with command: nodemon app.js. it do refresh my web browser after every change in my code" />
   </component>
 </project>

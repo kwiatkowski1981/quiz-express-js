@@ -36,11 +36,11 @@ function gameRoutes(app) {
             // tablica questions od goodAnswers zmieni punktacje i iteruje do następnego pytania
             const nextQuestion = questions[goodAnswers];
             // Destrukturyzuję obiekt nextQuestion żeby móc prościej użyć pól w obiekcie odpowiedzi.JSON
-            // Robie tak bo chce wyslac recznie tylko te pola do fronEndu, do ktorych powinien miec dostep.
-            // Tworze w ten sposob obiekt  z wybranymi polami.
-            // bez destrukturyzacji musial bym użyć na dole nextQuestion.question, nextQuestion.answers,
-            // klient (przegladarka) uzyskala by jednak wtedy dostep do pola correctAnswer obiektu nextQuestion
-            // a tego nie chcemy
+            // Robie tak bo chce wysłać ręcznie tylko te pola do fronEndu, do których powinien mieć dostęp.
+            // Tworze w ten sposób obiekt  z wybranymi polami.
+            // bez destrukturyzacji musiał bym użyć na dole nextQuestion.question, nextQuestion.answers,
+            // klient (przeglądarka) uzyskała by jednak wtedy dostęp do pola correctAnswer obiektu nextQuestion
+            // a tego nie chcę.
             const {question, answers} = nextQuestion;
             res.json({
                 question,
@@ -59,9 +59,9 @@ function gameRoutes(app) {
             // pobiedam index przeslany w adresie '/:index' za pomocą req.params
             const {index} = req.params;
             // Muszę sprawdzić czy odpowiedź jest prawidłowa ale najpierw muszę pobrać  AKTUALNE pytanie!
-            // nie będzie to jednak  const nextQuestion = questions[goodAnswers - 1]; bo jesli jestem przy pytaniu z index'em zero
-            // to właśnie następne pytanie jest moim pytaniem aktualnym! Zmieniam nazwę z pytania nastepnego na sugerujące
-            // mi aktualne pytanie czyli 'question'
+            // nie będzie to jednak  const nextQuestion = questions[goodAnswers - 1];
+            // bo jeśli jestem przy pytaniu z index'em zero to właśnie następne pytanie jest moim pytaniem aktualnym!
+            // Zmieniam nazwę z pytania następnego na sugerujące mi aktualne pytanie czyli po prostu 'question'
             const question = questions[goodAnswers];
             const {correctAnswer} = question;
             // wyciągam warunek do zmiennej co poprawia mi czytelność kodu.
@@ -78,7 +78,7 @@ function gameRoutes(app) {
                 goodAnswers, // Ilość poprawnych odpowiedzi
             });
             // res.json({
-            //     correct: correctAnswer === Number(index)? true : false,
+            //     correct: correctAnswer === Number(index)? true : false, <- jedyna możliwość z if'a to boolean.
             // });
             // if (correctAnswer === Number(index)) {
             //     res.json({
@@ -91,8 +91,6 @@ function gameRoutes(app) {
             // }
         }
     );
-
-
 }
 
 module.exports = gameRoutes;

@@ -26,6 +26,14 @@ function showNextQuestion() {
         });
 }
 
+const goodAnswersSpan = document.querySelector('#good-answers');
+
+function handleAnswerFeedback(data) {
+    // wyświetlam wynik na froncie
+    goodAnswersSpan.innerText = data.goodAnswers;
+    // Wyświetlam kolejne pytanie
+    showNextQuestion();
+}
 
 function sendAnswer(answerIndex) {
     fetch(`/answer/${answerIndex}`, {
@@ -33,6 +41,7 @@ function sendAnswer(answerIndex) {
     })
         .then(res => res.json())
         .then(data => {
+            handleAnswerFeedback(data);
             console.log(data);
         });
 }

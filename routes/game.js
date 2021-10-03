@@ -61,7 +61,7 @@ app.post('/answer/:index', (req, res) => {
     const isCorrectAnswer = correctAnswer === Number(index);
 // Przydzielam punkty za poprawną odpowiedź.
     if (isCorrectAnswer) {
-
+        goodAnswers++;
     } else {
 
     }

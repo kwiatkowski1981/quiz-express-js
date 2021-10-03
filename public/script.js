@@ -26,4 +26,26 @@ function showNextQuestion() {
         });
 }
 
+
+function sendAnswer(answerIndex) {
+    fetch(`/answer/${answerIndex}`, {
+        method: 'POST',
+    })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+        });
+}
+
+// ktory przycisk zostal wcisniety?
+const buttons = document.querySelectorAll('button');
+for (const button of buttons) {
+// do kazdego przycisku dodawany jest event 'click'
+    button.addEventListener('click', event => {
+// po nacisnieciu jakiegos przycisku, pobieramy sobie index odpowiedzi
+        const answerIndex = event.target.dataset.answer;
+        sendAnswer(answerIndex);
+    });
+}
+
 showNextQuestion();

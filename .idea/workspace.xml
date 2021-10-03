@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added Changed &#10;const answerElement = document.querySelector(`#answer${Number(i) + 1}`);&#10;Iterator (i) must be a number in this case or ill get '0' + 1 = '01' !!!">
-      <change afterPath="$PROJECT_DIR$/routes/game.js" afterDir="false" />
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
       <workItem from="1633188146652" duration="2424000" />
-      <workItem from="1633256389569" duration="5658000" />
+      <workItem from="1633256389569" duration="6898000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -174,7 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633261785906</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer.">
+      <created>1633262460394</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1633262460394</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer.">
+      <created>1633262472088</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1633262472088</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +223,7 @@
     <MESSAGE value="added middlewear app.use(express.static())" />
     <MESSAGE value="added function that fetch questions and function that fills dynamically question and answers into my frontend" />
     <MESSAGE value="added Changed &#10;const answerElement = document.querySelector(`#answer${Number(i) + 1}`);&#10;Iterator (i) must be a number in this case or ill get '0' + 1 = '01' !!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Changed &#10;const answerElement = document.querySelector(`#answer${Number(i) + 1}`);&#10;Iterator (i) must be a number in this case or ill get '0' + 1 = '01' !!!" />
+    <MESSAGE value="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer." />
+    <option name="LAST_COMMIT_MESSAGE" value="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer." />
   </component>
 </project>

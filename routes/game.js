@@ -57,10 +57,18 @@ app.post('/answer/:index', (req, res) => {
 // mi aktualne pytanie czyli 'question'
     const question = questions[goodAnswers];
     const {correctAnswer} = question;
-// Wysyłam odpowiedź, jeśli kliknięto przycisk poprawnej odpowiedzi wysyłam true w innym wypadku false
+// wyciągam warunek do zmiennej co poprawia mi czytelność kodu.
+    const isCorrectAnswer = correctAnswer === Number(index);
+// Przydzielam punkty za poprawną odpowiedź.
+    if (isCorrectAnswer) {
 
+    } else {
+
+    }
+
+    // Wysyłam odpowiedź, jeśli kliknięto przycisk poprawnej odpowiedzi wysyłam true w innym wypadku false
     res.json({
-        correct: correctAnswer === Number(index), // Najkrótsza wersja zapisów pod spodem
+        correct: isCorrectAnswer, // Najkrótsza wersja zapisów pod spodem
     });
 
     // res.json({

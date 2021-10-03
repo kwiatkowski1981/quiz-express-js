@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added: After pressing a button, we get the response index and send it as an argument to the sendAnswer function, now need to add backend">
+    <list default="true" id="1cf393f8-93e6-4a4a-9e0a-cef3eac10067" name="Changes" comment="added: &#10;- I'll get the index sent in the address '/: index' with&#10;- I need to check if the answer is correct but first I need to download a CURRENT question!&#10;       - however, it will not be const nextQuestion = questions [goodAnswers - 1]; because if I'm at the question with index zero&#10;- this is the next question that is my topical question! I change the name from the next question to the current question that suggests to me, i.e. 'question'&#10;- I am sending a reply, if the correct answer button has been clicked I am sending true, otherwise false">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/game.js" afterDir="false" />
     </list>
@@ -52,7 +52,7 @@
       <updated>1633188130067</updated>
       <workItem from="1633188132279" duration="7000" />
       <workItem from="1633188146652" duration="2424000" />
-      <workItem from="1633256389569" duration="8648000" />
+      <workItem from="1633256389569" duration="9598000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1633188307026</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633263754626</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added: &#10;- I'll get the index sent in the address '/: index' with&#10;- I need to check if the answer is correct but first I need to download a CURRENT question!&#10;       - however, it will not be const nextQuestion = questions [goodAnswers - 1]; because if I'm at the question with index zero&#10;- this is the next question that is my topical question! I change the name from the next question to the current question that suggests to me, i.e. 'question'&#10;- I am sending a reply, if the correct answer button has been clicked I am sending true, otherwise false">
+      <created>1633265503353</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1633265503353</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +245,7 @@
     <MESSAGE value="added Changed &#10;const answerElement = document.querySelector(`#answer${Number(i) + 1}`);&#10;Iterator (i) must be a number in this case or ill get '0' + 1 = '01' !!!" />
     <MESSAGE value="added I refactored the code in such a way that my mini backend is hidden (closure) in the function. App.js (as my main function) then has no 'unnecessary' code. It becomes transparent and safer." />
     <MESSAGE value="added: After pressing a button, we get the response index and send it as an argument to the sendAnswer function, now need to add backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="added: After pressing a button, we get the response index and send it as an argument to the sendAnswer function, now need to add backend" />
+    <MESSAGE value="added: &#10;- I'll get the index sent in the address '/: index' with&#10;- I need to check if the answer is correct but first I need to download a CURRENT question!&#10;       - however, it will not be const nextQuestion = questions [goodAnswers - 1]; because if I'm at the question with index zero&#10;- this is the next question that is my topical question! I change the name from the next question to the current question that suggests to me, i.e. 'question'&#10;- I am sending a reply, if the correct answer button has been clicked I am sending true, otherwise false" />
+    <option name="LAST_COMMIT_MESSAGE" value="added: &#10;- I'll get the index sent in the address '/: index' with&#10;- I need to check if the answer is correct but first I need to download a CURRENT question!&#10;       - however, it will not be const nextQuestion = questions [goodAnswers - 1]; because if I'm at the question with index zero&#10;- this is the next question that is my topical question! I change the name from the next question to the current question that suggests to me, i.e. 'question'&#10;- I am sending a reply, if the correct answer button has been clicked I am sending true, otherwise false" />
   </component>
 </project>

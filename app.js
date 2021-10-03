@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 const port = 3000;
 const myUrl = '127.0.0.1';
@@ -6,6 +7,10 @@ const myUrl = '127.0.0.1';
 app.listen(port, myUrl, () => {
     console.log(`Serwer dziala na http://${myUrl}:${port}`);
 });
+
+app.use(express.static(
+    path.join(__dirname, 'public')
+));
 
 
 let goodAnswers = 0;
@@ -15,7 +20,7 @@ let halfOnHalfUsed = false;
 
 const questions = [
     {
-        question: 'Czy ten kurs jest fajny? ? ',
+        question: 'Czy ten kurs jest fajny? ',
         answers: ['Nie wiem', 'Oczywiście, że tak', 'Nie', 'Jest najlepszy!'],
         correctAnswer: 3,
     },
@@ -41,6 +46,8 @@ app.get('/question', (req, res) => {
         // tablica questions od goodAnswers zmieni punktacje i iteruje do następnego pytania
         const nextQuestion = questions[goodAnswers];
         // Destrukturyzuję obiekt nextQuestion żeby móc prościej użyć pól w obiekcie odpowiedzi.JSON
+        // Robie tak bo chce wyslac recznie tylko te pola do fronEndu, do ktorych powinien miec dostep.
+        // Tworze w ten sposob obiekt  z wybranymi polami.
         // bez destrukturyzacji musial bym użyć na dole nextQuestion.question, nextQuestion.answers,
         // klient (przegladarka) uzyskala by jednak wtedy dostep do pola correctAnswer obiektu nextQuestion
         // a tego nie chcemy
